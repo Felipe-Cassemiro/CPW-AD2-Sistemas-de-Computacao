@@ -1,0 +1,289 @@
+/* Estilo Geral*/
+
+body {
+    background-color: #551177;
+    color: #FFFF00;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+}
+a:link { color:#FFFF00; text-decoration:none; }
+a:visited { color:#EEEE00; text-decoration:none; }
+
+
+/*Estilo Seções*/
+
+header {
+    display:block;
+    text-align: center;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+nav {
+    display:block;
+    font-size: 18px;
+    font-family: 'Muli', sans-serif;
+    border-bottom: 2px solid;
+    padding-bottom: 4px;
+    text-align: center;
+    margin: 2px;
+}
+section { display: block; }
+footer { clear: both; }
+
+
+/*Estilo Header*/
+
+.ender {
+    font-size: 14px;
+    text-align: center;
+    padding-top: 10px;
+    border-top: 2px solid;
+}
+img .imgLogo {
+padding-bottom: 4px;
+margin-bottom: 4px;
+}
+
+
+/*Estilo Nav*/
+
+nav .menu { margin: 1px auto; }
+
+.botao {
+    width: 120px;
+    display: inline-block;
+    margin: 0px 4px 0px 4px;
+    padding: 0px 4px 0px 4px;
+}
+
+
+/*Estilo Apresentação*/
+
+.apres {
+    text-align: center;
+    font-size: 18px;
+}
+
+
+/*Estilo Página Mascaras*/
+
+.ilusMasc {
+    text-align: center;
+    margin: auto;
+}
+
+.imgMasc {
+    border: 2px solid orange;
+    margin: 10px;
+}
+
+.lisDescricao {
+    color: #FFFF00;
+    font-size: 18px;
+    list-style-type: square;
+}
+
+#lisCarac {
+    font-size: 16px;
+    list-style-image: url('Imagens/seta18.png');
+}
+
+.lisCarac {
+    padding: 10px;
+    border-top: 10px;
+}
+
+/*Estilo Página Camisas*/
+
+.tabInfo {
+    border-collapse: collapse;
+    background-color: #FFFFCC;
+    color: #2255AA;
+    margin: auto;
+    font-family: 'Open Sans', sans-serif;
+}
+.tabInfo td, .tabInfo th {
+    border: 3px solid #77CCDD;
+    padding: 6px 6px 4px 6px;
+}
+
+.tabInfo .linTH {
+    color: #FFFFFF;
+    font-weight: bold;
+    text-align: center;
+    background-color: #0099DD;
+    vertical-align: middle;
+}
+
+.tabInfo .colTH {
+    color: #005599;
+    background-color: #FFFFFF;
+    width: 104px;
+    text-align: center;
+}
+
+.tabInfo img {
+    width: 100px;
+    height: 100px;
+}
+
+.tabInfo .tabInterna {
+    width: 100%;
+    margin: 0, 0, 0, 0;
+}
+
+.tabInterna th {
+    width: 50%;
+}
+
+.tabInterna img {
+    width: 25px;
+    height: 25px;
+}
+
+/*Estilo Formulario de Compras*/
+
+.divCompras {
+    color: #2255AA;
+    background-color: #EEEEAA;
+    padding: 6px 6px 15px 6px;
+    margin: 20px auto;
+    border: 2px solid #77CCDD;
+    width: 600px;
+
+}
+
+
+.listaCompras {
+    float: right;
+    width: 230px;
+    height: 230px;
+    margin-top: 8px;
+    margin-left: 10px;
+}
+
+
+.colLabSelProd {
+    width: 260px;
+    height: 40px;
+    float: left;
+}
+
+
+.colSelProd {
+    width: 160px;
+    float: right;
+}
+
+
+.linhaProdSel {
+    float: left;
+    width: 250px;
+}
+
+
+ .elemEsq {
+    float: left;
+    display:block;
+}
+
+
+.elemDir {
+    float: right;
+    display:block;
+}
+
+
+.botoes {
+    text-align: right;
+    margin: 20px 10px 0px 10px;
+}
+
+
+
+/*** Fieldsets ***/
+.fsEsq {
+    float: left;
+    display: inline;
+    margin: 0px;
+}
+.fsDir {
+    float: right;
+    display: inline;
+    margin: 0px;
+}
+    
+/*** Tamanho de Input ***/
+.inpGrande { width: 400px; }
+.inpMedio { width: 80px; }
+.inpNCC { width: 130px; }
+.inpTelef { width: 90px; }
+.inpEnder { width: 200px; height: 60px; }
+.numDD { width:30px; }
+.numQD { width:50px; }
+
+
+/* Estilo Formulário Dados*/
+    
+.divLinha {
+    margin-bottom: 6px;
+}
+    
+
+.colLabCrd {
+    width: 260px;
+    height: 60px;
+    float: left;
+}
+    
+
+.colPri {
+    float: left;
+    display: block;
+    width: 90px;
+}
+    
+
+.colPriCompras {
+    float: left;
+    display: block;
+    width: 86px;
+}
+    
+
+.colPriPag {
+    float: left;
+    display: block;
+    width: 250px;
+}
+
+.comprasFeitas {
+    width: 230px;
+    height: 180px;
+    float: right;
+    margin-top: 8px;
+    margin-left: 10px;
+}
+
+/*pop-up imagens das máscaras*/
+
+.janInfo {
+    margin: auto;
+    text-align: center;
+}
+
+.imgCorMasc {
+    margin: 5px;
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+    border: 2px solid orange;
+}
+
+.imgMasc {
+    margin: auto;
+    display: block;
+    border: 4px solid orange;
+    text-align: center;
+}

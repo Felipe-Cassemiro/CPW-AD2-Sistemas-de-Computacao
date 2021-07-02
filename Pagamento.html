@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Camisas de Outro Mundo</title>
+		<base target="_blank" />
+		<meta chanet= "utf-8">
+		<link rel="stylesheet" type="text/css" href="estilo.css" />
+	</head>
+	<body>
+		<header><img class="imgLogo"src="Imagens/LogoCOM_Topo.png"/></header>
+		<nav>
+			<div class="menu">
+				<span class="botao">
+				<a href="Index.html"> inicial </a></span>
+				<span class="botao">
+				<a href="mascaras.html"> mascaras </a></span>
+				<span class="botao">
+				<a href="camisas.html"> camisas </a></span>
+				<span class="botao">
+				<a href="Compras.html"> compras </a></span>
+			</div>
+		</nav>
+		<section>
+            <form class="divCompras" method="POST">
+                <fieldset><legend> Identificação</legend>
+                    
+                    <div class="divLinha">
+                        <label class="colPri">Nome: </label>
+                        <input type="text" class="inpGrande"
+                        name="TxtNomeCompleto" />
+                    </div>
+    
+                    <div class="divLinha">
+                        <label for="idEmail" class="colPri">E-mail:</label>
+                        <input id="idEmail" class="inpGrande"
+                        type="email" name="TxtEmail" required />
+                    </div>
+    
+                    <div class="divLinha">
+                    <label class="colPri">Endereço: </label>
+                    <textarea name="TxtEnder" class="inpEnder"></textarea>
+                        <fieldset class="fsDir"><legend>Genero:</legend>
+                            <label><input type="radio" name="TglSexo"
+                            value="M" checked />Mas</label>          
+                            <label><input type="radio" name="TglSexo"
+                            value="F" />Fem</label>
+                            <label><input type="radio" name="TglSexo"
+                            value="O" />Outro</label>
+                        </fieldset>
+                    </div>
+    
+                    <div class="divLinha">
+                        <fieldset class="fsDir"><legend>Nacimento:</legend>
+                            <input type="number" name="TxtDiaNasc"
+                            min="1" max="31" class="numDD" /> /
+                            <input type="number" name="TxtMesNasc"
+                            min="1" max="12" class="numDD" /> /
+                            <input type="number" name="TxtAnoNasc"
+                            min="1920" max="2002" class="numQD" value="1980" />
+                        </fieldset>
+                        <p><label class="colPri">Telefone:</label>
+                        <input type="text" class="inpTelef"
+                        name="TxtTelefone" required /></p>
+                        <label class="colPri">Celular:</label>
+                        <input type="text" class="inpTelef"
+                        name="TxtCelular" />
+                    </div>
+                    
+                </fieldset>
+                <fieldset><legend> Pagamento </legend>
+                    <textarea class="comprasFeitas" name="listaPedidos" readonly></textarea>
+                
+                    <fieldset class="fsEsq"><legend> Cartão</legend>           
+                        <label class="colLabCrd" >Bandeira:
+                            <label><input type="radio" name="RadBand" checked />Visa</label>
+                            <label><input type="radio" name="RadBand" />Master</label>
+                            <label><input type="radio" name="RadBand" />Elo</label>
+                        </label>
+                
+                        <br/>
+    
+                        <label class="colLabCrd" for="mesVal">Validade:
+                            <input type="number" name="TxtMesVal" id="mesVal"
+                            min="1" max="12" class="numDD" value="4"/> /
+                            <input type="number" name="TxtAnoVal" value="2021"
+                            min="2021" max="2030" class="numQD"/>
+                        </label>
+                
+                        <br/>
+                
+                        <label class="colLabCrd" for="numCar">Número:
+                        <input type=text name="TxtNumCard"
+                        class="inpNCC" id="numCar"/>
+                        </label>
+                
+                        <br/>
+    
+                    </fieldset>
+    
+                    <label class="elemDir" for="TxtTotal"><br/>Valor R$
+                    <input type="text" name="TxtTotal" readonly
+                    id="TxtTotal" class="inpMedio" /></label>
+                </fieldset>
+                
+                <div class="botoes">
+                    <input type="submit" value="Enviar" />
+                    <input type="reset" value="Limpar" />
+                </div>
+            </form>
+		</section>
+		<div>
+			<address class="ender">Via Lactea, 1234 / Tel: (21) 98765-4321 /
+			<a href="mailto:contato@manganime.com.br">contato@camplanetas.com.br</a></address>
+		</div>
+
+
+
+
+        <script src="scripts.js"></script>
+	</body>
+</html>

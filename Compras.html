@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Camisas de Outro Mundo</title>
+		<base target="_blank" />
+		<meta chanet= "utf-8">
+		<link rel="stylesheet" type="text/css" href="estilo.css" />
+	</head>
+	<body>
+		<header><img class="imgLogo"src="Imagens/LogoCOM_Topo.png"/></header>
+		<nav>
+			<div class="menu">
+				<span class="botao">
+				<a href="Index.html"> inicial </a></span>
+				<span class="botao">
+				<a href="mascaras.html"> mascaras </a></span>
+				<span class="botao">
+				<a href="camisas.html"> camisas </a></span>
+				<span class="botao">
+				<a href="Compras.html"> compras </a></span>
+			</div>
+		</nav>
+		<section>
+            <form class="divCompras" action="6_Finaliza.html" method="POST">
+                <fieldset><legend> Seleção de Produtos e Lista de Compras</legend>
+                    <textarea class="listaCompras"name="listaPedidos" readonly></textarea>
+                    <fieldset><legend> Selecionado</legend>
+               
+                        <br/>
+    
+                        <label class="colLabSelProd" >Produto:
+                            <Select name="selTamanho" class="colSelProd">
+                                <option>---</option>
+                                <optgroup label="Camisas"></optgroup>
+                                <option value="lisa">Lisa</option>
+                                <option value="mercurio">Mercúrio</option>
+                                <option value="venus">Venus</option>
+                                <option value="terra">Terra</option>
+                                <option value="marte">Marte</option>
+                                <option value="jupter">Jupter</option>
+                                <option value="saturno">Saturno</option>
+                                <option value="urano">Urano</option>
+                                <option value="netuno">Netuno</option>
+                                <option value="plutao">Plutão</option>
+                                <optgroup label="Mascaras"></optgroup>
+                                <option value="mascaralisa">Lisa</option>
+                                <option value="mascaracometa">Cometa</option>
+                            </select>
+                        </label>
+    
+                        <label class="colLabSelProd" >Tamanho:
+                            <Select name="selCor" class="colSelProd">
+                                <option>---</option>
+                                <option value="Pequena">Pequena</option>
+                                <option value="Media">Media</option>
+                                <option value="Grande">Grande</option>
+                                <option value="ExtraGrande">Extra Grande</option>
+                            </select>
+                        </label>
+    
+                        <label class="colLabSelProd" >Cor:
+                            <Select name="selTamanho" class="colSelProd">
+                                <option>---</option>
+                                <option value="TST">Preto</option>
+                                <option value="POP">Branco</option>
+                                <option value="POC">Azul</option>
+                                <option value="TSO">Lilas</option>
+                            </select>
+                        </label>
+    
+                        <label class="colLabSelProd" >Modelo:
+                            <Select name="selCor" class="colSelProd">
+                                <option>---</option>
+                                <option value="Verde">T-Shirt</option>
+                                <option value="Cinza">Baby Look</option>
+                                <option value="Preto">Sem Manga</option>
+                            </select>
+                        </label>
+    
+                        <div class="colLabSelProd" >
+                            <input class="linhaProdSel" type="text"name="TXTdesc" id="txtDesc" readonly />
+                        </div>
+                
+                        <div class="colLabSelProd" >
+                            <input class="elemEsq" type="button" value="Comprar" />
+                            <label class="elemDir" for="TxtPreco">R$
+                            <input type="text" name="TxtPreco" readonly
+                            class="inpMedio" id="TxtPreco" /></label>
+                        </div>
+    
+                    </fieldset>
+                    <label class="elemDir" for="TxtTotal"><br/>Total R$
+                    <input type="text" name="TxtTotal" readonly
+                    id="TxtTotal" class="inpMedio" /></label>
+                </fieldset>
+                <div class="botoes">
+                    <button type="submit" formaction="Pagamento.html">Continuar</button>
+                    <button type="reset" >Limpar</button>
+                </div>
+            </form>
+		</section>
+		<div>
+			<address class="ender">Via Lactea, 1234 / Tel: (21) 98765-4321 /
+			<a href="mailto:contato@manganime.com.br">contato@camplanetas.com.br</a></address>
+		</div>
+
+
+
+
+        
+        <script src="scripts.js"></script>
+	</body>
+</html>
